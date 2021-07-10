@@ -9,7 +9,7 @@ function compute()
     // convert number of years to actual year in the future
     var year = new Date().getFullYear()+parseInt(years);
     // write the result
-    document.getElementById("result").innerHTML="If you deposit "
+    document.getElementById("result").innerHTML="\<br\>If you deposit "
     +principal+",\<br\>at an interest rate of "+rate+
     "%\<br\>You will receive an amount of "+interest+
     ",\<br\>in the year "+year+"\<br\>"
@@ -21,7 +21,7 @@ function updateRate()
     // read value of range slider and display the span adjacent 
     // to the slider
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval;
+    document.getElementById("rate_val").innerText=rateval+"%";
 }
 
 function checkData()
