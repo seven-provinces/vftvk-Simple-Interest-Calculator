@@ -12,10 +12,10 @@ function compute()
     // convert number of years to actual year in the future
     var year = new Date().getFullYear()+parseInt(years);
     // write the result
-    document.getElementById("result").innerHTML="\<br\>If you deposit "
-    +principal+",\<br\>at an interest rate of \<mark>"+rate+
-    "%\</mark><br\>You will receive an amount of "+interest+
-    ",\<br\>in the year "+year+"\<br\>"
+    document.getElementById("result").innerHTML="\<br\>If you deposit \<mark>"
+    +principal+"\</mark>,<br\>at an interest rate of \<mark>"+rate+
+    "%\</mark><br\>You will receive an amount of \<mark>"+interest+
+    "\</mark>,\<br\>in the year \<mark>"+year+"\</mark><br\>"
     
 }
 
