@@ -15,11 +15,15 @@ h1{
     border-radius:25px;
     align:center
 }
+.maindiv input{
+    width:100%;
+    clear:both
+}
 mark{
     background-color:yellow
 }
 button{
-    background-color:grey
+    background-color:whitesmoke
 }
 
 
