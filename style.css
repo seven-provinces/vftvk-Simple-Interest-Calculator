@@ -25,6 +25,9 @@ table{
     margin-left:100px;
     font-family:arial
 }
+td{
+    text-align:left
+}
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button{
     -webkit-appearance:none;
