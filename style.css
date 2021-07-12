@@ -21,9 +21,14 @@ mark{
 button{
     background-color:whitesmoke
 }
-table{
+.table1{
     margin-left:100px;
     margin-top:-50px;
+    font-family:arial;
+}
+.table2{
+    margin-left:100px;
+    margin-top:10px;
     font-family:arial;
 }
 input[type=number]::-webkit-inner-spin-button,
