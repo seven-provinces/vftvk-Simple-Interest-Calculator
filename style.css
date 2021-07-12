@@ -23,7 +23,7 @@ button{
 }
 table{
     margin-left:100px;
-    margin-top:0px;
+    margin-top:-50px;
     font-family:arial;
 }
 input[type=number]::-webkit-inner-spin-button,
