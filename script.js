@@ -24,7 +24,7 @@ function updateRate()
     // read value of range slider and display the span adjacent 
     // to the slider
     var rateval = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText=rateval+"%";
+    document.getElementById("rate_val").innerText=rateval.toFixed(2)+"%";
 }
 
 function checkData()
