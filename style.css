@@ -22,7 +22,7 @@ button{
     background-color:whitesmoke
 }
 p{
-    margin-left:100px
+    text-align:center
 }
 table{
     margin-left:100px;
@@ -30,9 +30,7 @@ table{
 }
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button{
-    appearance:none;
     -webkit-appearance:none;
-    -moz-appearance:none;
     margin:0px
 }
 
