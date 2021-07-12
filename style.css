@@ -22,7 +22,7 @@ button{
     background-color:whitesmoke
 }
 table{
-    margin-top:0;
+    margin-left:100px;
     font-family:arial;
 }
 input[type=number]::-webkit-inner-spin-button,
